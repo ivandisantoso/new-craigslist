@@ -1,5 +1,5 @@
 body{
-    /* background-color: #000000; */
+    /* background-color: #fafafa; */
 }
 
 @media screen and (min-width:20em){
@@ -25,4 +25,27 @@ body{
         background-color: lightcoral;
 
     }
-}H
+}
+.middle-main{
+    background-color: coral;
+}
+
+.img-menu{
+    background-color: bisque;
+    width: 3em;
+    height: 3em;
+}
+
+.bottom-bar{
+    display: grid;
+    grid-template-columns: 1fr 1fr .5fr .5fr .5fr;
+}
+
+.bottom{
+    background-color: #000000;
+    color: #ffffff;
+    text-align: center;
+    padding: 1em 0;
+}
+
+
