@@ -1,39 +1,69 @@
-body{
-    /* background-color: #fafafa; */
+/* img{
+    width: auto;
+max-width: 100%;
+} */
+
+.top-logo{
+    padding-left: 1rem;
+    margin: 1rem 0;
 }
 
-@media screen and (min-width:20em){
+.top-search{
+    margin: 1rem 0;
+}
+
+.top-apps{
+    margin: 1rem 0;
+}
+
+.top-login{
+    margin: 1rem 0;
+}
+
+.top-language{
+    margin: 1rem 0;
+    padding-right: 1rem;
+}
+
+@media screen and (min-width:20rem){
     .top-bar{
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
-        grid-gap: 1em;
+        grid-gap: 1rem;
         background-color: tomato;
 
     }
 }
 
-@media screen and (min-width:40em){
+@media screen and (min-width:40rem){
     .top-bar{
         grid-template-columns: 1fr 2fr 1fr 1fr 1fr 1fr;
         background-color: aqua;
-
     }
 }
-@media screen and (min-width:60em){
+@media screen and (min-width:60rem){
     .top-bar{
         grid-template-columns: 1fr 3fr 1fr 1fr 1fr 1fr;
         background-color: lightcoral;
-
     }
 }
 .middle-main{
+    display: grid;
     background-color: coral;
+    grid-template-columns: 2fr 4fr;
+}
+
+.left-main-menu{
+    background-color: #ffffff;
+    padding: 1rem 2rem;
+    text-align: left;
 }
 
 .img-menu{
-    background-color: bisque;
-    width: 3em;
-    height: 3em;
+    /* background-color: bisque; */
+    width: 3rem;
+    height: 3rem;
+    margin: .5rem 0;
 }
 
 .bottom-bar{
@@ -45,7 +75,7 @@ body{
     background-color: #000000;
     color: #ffffff;
     text-align: center;
-    padding: 1em 0;
+    padding: 1rem 0;
 }
 
 
