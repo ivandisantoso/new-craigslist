@@ -109,10 +109,10 @@ li:hover {
 
 } */
 
-.left-menu a.active{
-    /* background-color: red; */
-    /* border-left: .5rem solid black; */
-}
+/* .left-menu a.active{
+    background-color: red;
+    border-left: .5rem solid black;
+} */
 
 .img-menu{
     background-color: bisque;
@@ -129,6 +129,32 @@ li:hover {
     border-bottom-right-radius: 1rem;
 
 } */
+@media screen and (min-width:20rem){
+    .main-container{
+        display: grid;
+        grid-gap: 1rem;
+        grid-template-columns: 1fr;
+        margin: 1rem;
+    }
+}
+
+@media screen and (min-width:40rem){
+    .main-container{
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media screen and (min-width:60rem){
+    .main-container{
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+
+@media screen and (min-width:80rem){
+    .main-container{
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+}
 
 .bottom{
     /* background-color: tomato; */
